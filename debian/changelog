@@ -1,0 +1,5 @@
+base (1.4.5-0) stable; urgency=medium
+
+  * Initial release
+
+ -- Rémi BUISSON <remi.buisson@cdiscount.com>  Thu, 19 May 2016 10:20:35 +0200

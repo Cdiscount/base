@@ -1,0 +1,19 @@
+Source: base
+Section: non-free/net
+Priority: optional
+Maintainer: Rémi BUISSON <remi.buisson@cdiscount.com>
+Build-Depends: debhelper (>= 4.0.0)
+Standards-Version: 3.9.5
+
+Package: base
+Architecture: any
+Depends: ${misc:Depends}, php5, php5-mysql, php5-gd, php-pear, php5-adodb,
+         libphp-adodb, php-mail, php-mail-mime, php-image-graph,
+         php-image-color, php-image-canvas
+Suggests: snort (>= 1.8.7), suricata (>= 1.0.0), nginx, mysql-server
+Description: console for intrusion databases
+ BASE is the Basic Analysis and Security Engine. It is based on
+ the code from the Analysis Console for Intrusion Databases
+ (ACID) project. This application provides a web front-end to
+ query and analyze the alerts coming from a SNORT IDS system.
+ 
